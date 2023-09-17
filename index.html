@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+
+        .card-containers{
+            background-color: cadetblue;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px 0px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card1, .card2, .card3, .card4, .card5{
+            width:300px;
+            margin:20px;
+            box-sizing: border-box;
+            box-shadow:1px 2px 1px black ;
+        }
+        .card1:hover , .card2:hover , .card3:hover , .card4:hover , .card5:hover{
+            box-shadow: 6px 8px 6px white;
+            cursor: pointer;
+            
+        }
+        .img-style{
+            width:100%;
+        }
+        .card1-body{
+            padding: 5px;
+            background-color: #49487D;
+        }
+        .card1-body .card-title{
+            font-size: 28px;
+            color: white;
+            text-align: center;
+        }
+        .card1-body .card-desc{
+            text-align: center;
+        }
+        .card2-body{
+            padding: 5px;
+            background-color: #20B8C8;
+        }
+        .card2-body .card-title{
+            font-size: 28px;
+            color: white;
+            text-align: center;
+        }
+        .card2-body .card-desc{
+            text-align: center;
+        }
+        .card3-body{
+            padding: 5px;
+            background-color: #D1CF82;
+        }
+        .card3-body .card-title{
+            font-size: 28px;
+            color: white;
+            text-align: center;
+        }
+        .card3-body .card-desc{
+            text-align: center;
+        }
+        .card4-body{
+            padding: 5px;
+            background-color: #D8C9AA;
+        }
+        .card4-body .card-title{
+            font-size: 28px;
+            color: white;
+            text-align: center;
+        }
+        .card4-body .card-desc{
+            text-align: center;
+        }
+        .card5-body{
+            padding: 5px;
+            background-color: #D6C37F;
+        }
+        .card5-body .card-title{
+            font-size: 28px;
+            color: white;
+            text-align: center;
+        }
+        .card5-body .card-desc{
+            text-align: center;
+        }
+
+        .card1:hover .card-title{
+            font-size: 28px;
+            color: aquamarine;
+            text-align: center;
+        }
+        .card1:hover .card-desc{
+            text-align: center;
+            color: #D1CF82;
+        }
+        .card2:hover .card-title{
+            font-size: 28px;
+            color: blueviolet;
+            text-align: center;
+        }
+        .card2:hover .card-desc{
+            text-align: center;
+            color: white;
+        }
+        .card3:hover .card-title{
+            font-size: 32px;
+            color: black;
+            text-align: center;
+        }
+        .card3:hover .card-desc{
+            text-align: center;
+            color: red;
+        }
+        .card4:hover .card-title{
+            font-size: 32px;
+            color: red;
+            text-align: center;
+        }
+        .card4:hover .card-desc{
+            text-align: center;
+            color: white;
+        }
+        .card5:hover .card-title{
+            font-size: 32px;
+            color: #6D6B72;
+            text-align: center;
+        }
+        .card5:hover .card-desc{
+            text-align: center;
+            color: green;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header><h1 style="text-align: center;"> CSE 1st semester book list</h1></header>
+        
+    <div class="card-containers">  
+
+    <div class="card1">
+
+        <img class="img-style" src="c-programming-language.JPG" alt="">
+
+        <div class="card1-body">
+            <div class="card-title">
+                    Structured <br>Programming Language
+            </div>
+            <div class="card-desc">
+                <p> Course Code : 510201 <br>
+                    Marks : 80  &nbsp; &nbsp; Credits : 3 &nbsp; &nbsp; Class Hours : 45 <br>
+                    The price of the book : 230 Taka
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card2">
+
+        <img class="img-style" src="electrical.JPG" alt="">
+
+        <div class="card2-body">
+            <div class="card-title">
+                    Electrical and Electronic Circuit
+            </div>
+            <div class="card-desc">
+                <p> Course Code : 510203 <br>
+                    Marks : 80  &nbsp; &nbsp; Credits : 3 &nbsp; &nbsp; Class Hours : 45 <br>
+                    The price of the book : 250 Taka
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card3">
+
+        <img class="img-style" src="calculus.JPG" alt="">
+
+        <div class="card3-body">
+            <div class="card-title">
+                    Calculus
+            </div>
+            <div class="card-desc">
+                <p> Course Code : 510205 <br>
+                    Marks : 80  &nbsp; &nbsp; Credits : 3 &nbsp; &nbsp; Class Hours : 45 <br>
+                    The price of the book : 230 Taka
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card4">
+
+        <img class="img-style" src="physics.JPG" alt="">
+
+        <div class="card4-body">
+            <div class="card-title">
+                    Physics
+            </div>
+            <div class="card-desc">
+                <p> Course Code : 510207 <br>
+                    Marks : 80  &nbsp; &nbsp; Credits : 3 &nbsp; &nbsp; Class Hours : 45 <br>
+                    The price of the book : 230 Taka
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card5">
+
+        <img class="img-style" src="english.JPG" alt="">
+
+        <div class="card5-body">
+            <div class="card-title">
+                    English
+            </div>
+            <div class="card-desc">
+                <p> Course Code : 510209 <br>
+                    Marks : 80  &nbsp; &nbsp; Credits : 3 &nbsp; &nbsp; Class Hours : 45 <br>
+                    The price of the book : 340 Taka
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
